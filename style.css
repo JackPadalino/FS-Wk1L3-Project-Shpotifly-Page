@@ -159,7 +159,6 @@ a{
 .mainArea3Div{
     display:flex;
     flex-direction: column;
-    justify-content: center;
     flex:8;
     gap:5px;
 }
