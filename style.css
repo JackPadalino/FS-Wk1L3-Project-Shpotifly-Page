@@ -1,0 +1,170 @@
+/*~~~~~~~~~~general settings~~~~~~~~~~*/
+h1,h2,h3,h4,h5,p,a{
+    color:lightgrey;
+    font-family: Roboto Slab;
+    margin:0px;
+}
+
+a{
+    text-decoration: none;
+}
+
+/*~~~~~~~~~~main divs~~~~~~~~~~*/
+#mainContainer{
+    display:flex;
+}
+
+#navMain{
+    display:flex;
+    flex-direction: column;
+    flex:1;
+    background-color: black;
+    padding:20px;
+    gap:40px;
+}
+
+#mainArea{
+    display:flex;
+    flex-direction: column;
+    flex:8;
+    background-color: #191414;
+    padding:20px;
+    gap:30px;
+}
+
+/*~~~~~~~~~~navMain div~~~~~~~~~~*/
+#navTop{
+    display:flex;
+    align-items: center;
+}
+
+#navTop>img{
+    height:40px;
+    width:40px;
+}
+
+#navTop>h1{
+    color:white;
+    padding-left:10px;
+}
+
+/*~navMid1 div~*/
+#navMid1{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.navMid1Div{
+    display: flex;
+    align-items: center;
+}
+
+/*~navMid2 div~*/
+#navMid2{
+    display: flex;
+    flex-direction: column;
+    gap:20px;
+}
+
+.navMid2Div{
+    display: flex;
+    align-items: center;
+}
+
+/*~~navMid1 & navMid2 divs~*/
+.navMidImg{
+    height:20px;
+    width:20px;
+}
+
+.navMidLink{
+    padding-left:10px;
+}
+
+/*~navBottom div~*/
+#navBottom>ul{
+    margin-block-start: 0em;
+    margin-block-end: 0em;
+    padding: 0px;
+    list-style-type: none;
+}
+
+#navBottom>ul>li{
+    margin-bottom:20px;
+}
+
+/*~~~~~~~~~~mainArea~~~~~~~~~~*/
+#mainArea>h1{
+    color:white;
+}
+
+/*~mainArea1 div*/
+#mainArea1{
+    display:flex;
+    flex-wrap:wrap;
+    gap:10px;
+}
+
+.mainArea1Div{
+    display:flex;
+    flex:32%;
+    align-items: center;
+    background-color: rgb(52, 52, 52);
+    border-radius: 3px;;
+}
+
+.mainArea1Div>a{
+    padding-left:10px;
+}
+
+/*~mainArea2 div*/
+#mainArea2{
+    display:flex;
+    gap:10px;
+}
+
+.mainArea2Div{
+    display:flex;
+    padding:20px;
+    border-radius: 5px;
+    height:100px;
+    flex:4;
+}
+
+.mainArea2Div>h2{
+    color:white;
+}
+
+#mainArea2Div1{
+    background-color: rgb(255, 0, 153);
+}
+
+#mainArea2Div2{
+    background-color: rgb(174, 0, 255);
+}
+
+#mainArea2Div3{
+    background-color: rgb(0, 225, 255);
+}
+
+#mainArea2Div4{
+    background-color: rgb(255, 174, 0);
+}
+
+/*~mainArea3 div*/
+#mainArea3{
+    display:flex;
+}
+.mainArea3Div{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex:8;
+    gap:5px;
+}
+
+.mainArea3Div>img{
+    height:125px;
+    width:80%;
+}
